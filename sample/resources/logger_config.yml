@@ -1,0 +1,27 @@
+version: 1
+formatters:
+    main_formatter:
+        class: logging.Formatter
+        format: "%(asctime)s %(name)s %(levelname)s %(message)s"
+        datefmt: "%Y-%m-%d %H:%M:%S"
+handlers:
+    debug_file_handler:
+        class: logging.FileHandler
+        filename: logs\console_parser_debug.log
+        level: DEBUG
+        formatter: main_formatter
+    warn_file_handler:
+        class: logging.FileHandler
+        filename: logs\console_parser_warn.log
+        level: WARNING
+        formatter: main_formatter
+    info_file_handler:
+        class: logging.FileHandler
+        filename: logs\console_parser_info.log
+        level: INFO
+        formatter: main_formatter
+loggers:
+    console_parser:
+        level: DEBUG
+        handlers: [debug_file_handler, warn_file_handler, info_file_handler]
+        propagate: no

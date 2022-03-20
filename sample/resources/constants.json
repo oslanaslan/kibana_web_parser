@@ -1,0 +1,13 @@
+{
+    "START_URL": "",
+    "EMAIL_XPATH": "/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div/div[1]/div/div[1]/input",
+    "LOGIN_BUTTON_XPATH": "/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span",
+    "PASSWORD_XPATH": "/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input",
+    "PASSWORD_LOGIN_XPATH": "/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span",
+    "DEV_TOOLS_XPATH": "/html/body/div[1]/div/header/nav/div/div[1]/div/ul[3]/li[12]/span",
+    "CLOSE_INFO_XPATH": "/html/body/div[1]/div/div[2]/div/div[2]/div/main/div[2]/div/div[2]/div[3]/div/button",
+    "SEARCH_SOURCE_XPATH": "/html/body/div[1]/div/div[2]/div/div[2]/div/main/div[2]/div/div/div[2]/div/div[1]/div/div/div[2]/div[3]/div/div[3]/div[1]/div/span[3]",
+    "INPUT_SPACE_XPATH": "/html/body/div[1]/div/div[2]/div/div[2]/div/main/div[2]/div/div/div[2]/div/div[1]/div",
+    "INPUT_AREA_XPATH": "/html/body/div[1]/div/div[2]/div/div[2]/div/main/div[2]/div/div/div[2]/div/div[1]/div/div/div[2]/textarea",
+    "SEARCH_SRC": "GET logstash*/_search\n"
+}
